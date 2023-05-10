@@ -23,8 +23,28 @@ margin-top: 20px;
 }}
 
 .restorants{
+    margin-top: 10px;
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
     gap: 20px;
+}
+
+.news{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+}
+
+.coctailes{
+    grid-column:  1;
+}
+.dinocatering{
+    margin-top: 28px;
+    grid-column: 2;
+}
+.dinebistrosoon{
+  
+   width: 200px;
+   height: 110px;
 }
