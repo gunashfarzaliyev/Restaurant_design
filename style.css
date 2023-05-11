@@ -37,14 +37,45 @@ margin-top: 20px;
 }
 
 .coctailes{
-    grid-column:  1;
+    grid-column:  1/3;
+    grid-row: 1/3;
+}
+.coctailes_main{
+    display: flex;
+    flex-direction: column;
+}
+.coctailes_main_main{
+    display: flex;
+    flex-direction: row;
 }
 .dinocatering{
     margin-top: 28px;
-    grid-column: 2;
+    grid-column: 2/3;
+    grid-row: 1/2;
 }
 .dinebistrosoon{
-  
+    grid-column: 2/3;
+    grid-row: 2/3;
    width: 200px;
    height: 110px;
+}
+
+.seeallnews{
+    display: flex;
+    justify-content: center;
+
+}
+
+.secbg{
+    width: 100%;
+    height: 36vh;
+    background-color: #191919;
+}
+
+.restorants_2{
+    padding-top: 25px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 20px;
 }
